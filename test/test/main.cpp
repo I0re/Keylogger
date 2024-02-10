@@ -14,16 +14,13 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	// Call functions from GetSYSinfo class
 	GetSYSinfo::GetHostname();
 
-	// Provide appropriate arguments for GetComputerInfo
 	int computerInfoResult = GetSYSinfo::GetComputerInfo(argc, argv);
 	if (computerInfoResult != 0) {
 		return computerInfoResult;
 	}
 
-	// Provide appropriate arguments for GetMAC
 	char* macResultEthernet = GetSYSinfo::GetMAC(MIB_IF_TYPE_ETHERNET);
 	if (macResultEthernet != NULL) {
 		free(macResultEthernet);
@@ -31,7 +28,6 @@ int main(int argc, char* argv[]) {
 
 	char* macResultWifi = GetSYSinfo::getMAC(IF_TYPE_IEEE80211);
 	if (macResultWifi != NULL) {
-		// Handle the result if needed
 		free(macResultWifi);
 	}
 
