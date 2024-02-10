@@ -1,0 +1,13 @@
+﻿  cpuinfo.cpp
+  cpuinfodelegate.cpp
+  gpuinfo.cpp
+  gpuinfodelegate.cpp
+  main.cpp
+  motherboardinfo.cpp
+  motherboardinfodelegate.cpp
+  osinfo.cpp
+  osinfodelegate.cpp
+  raminfo.cpp
+  raminfodelegate.cpp
+  systemcommand.cpp
+  SystemInfo.vcxproj -> C:\Users\Owner\Desktop\GitHub C++ Projects\SystemInfo\build\SystemInfo.lib
