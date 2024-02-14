@@ -10,3 +10,5 @@ Including and linking both curl and systeminfo are required to be done by the us
 The keystroked data is saved and added to a queue for as long as the program is running and the terminal signal has not been received.
 
 The program will also attach itself to the computer's registry to enable persistence and be reactivated at every startup.
+
+#Demo
