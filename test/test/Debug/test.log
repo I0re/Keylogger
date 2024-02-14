@@ -1,9 +1,0 @@
-﻿  main.cpp
-main.obj : error LNK2019: unresolved external symbol __imp__curl_slist_append referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_slist_free_all referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_easy_strerror referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_easy_init referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_easy_setopt referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_easy_perform referenced in function _main
-main.obj : error LNK2019: unresolved external symbol __imp__curl_easy_cleanup referenced in function _main
-C:\Users\Owner\Desktop\GitHub C++ Projects\test\Debug\test.exe : fatal error LNK1120: 7 unresolved externals
