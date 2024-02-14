@@ -12,3 +12,6 @@ The keystroked data is saved and added to a queue for as long as the program is 
 The program will also attach itself to the computer's registry to enable persistence and be reactivated at every startup.
 
 # Demo
+
+https://github.com/andresv1/Keylogger/assets/95900417/a372126a-14be-4d35-bee3-57a2421cf2e0
+
