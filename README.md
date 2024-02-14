@@ -11,4 +11,4 @@ The keystroked data is saved and added to a queue for as long as the program is 
 
 The program will also attach itself to the computer's registry to enable persistence and be reactivated at every startup.
 
-#Demo
+# Demo
