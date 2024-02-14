@@ -38,8 +38,6 @@ void GetSYSinfo::GetHostname() {
 }
 
 int GetSYSinfo::GetComputerInfo(int argc, char* argv[]) {
-	// Main function to get all PC hardware info
-	// Existing main() code
 	//Main Function to get ALL PC HARDWARE INFO **WORKING**
 
 	//First make a delegate object that handles the cases where the computer has multiple CPUs
